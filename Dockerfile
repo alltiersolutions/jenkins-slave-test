@@ -6,6 +6,7 @@ USER root
 RUN apt update \
     && apt install -y \
     php \
+    php-curl \
     php-gd \
     php-mbstring \
     php-xml
