@@ -6,5 +6,6 @@ USER root
 RUN apt update \
     && apt install -y \
     php \
+    php-gd \
     php-xml
 USER jenkins
