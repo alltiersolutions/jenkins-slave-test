@@ -5,5 +5,6 @@ COPY --from=builder /usr/bin/composer /usr/local/bin/
 USER root
 RUN apt update \
     && apt install -y \
-    php
+    php \
+    php-xml
 USER jenkins
